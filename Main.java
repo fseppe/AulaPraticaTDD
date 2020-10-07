@@ -2,9 +2,11 @@ public class Main {
     
     public static void main(String[] args){
 
-        DollarTest dt = new DollarTest();
-        dt.testMultiplication();
-        
+        MoneyTest mt = new MoneyTest();
+        mt.testMultiplication();
+        mt.testFrancMultiplication();
+        mt.testEquality();
+
     }
 
 }
