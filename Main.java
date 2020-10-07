@@ -4,9 +4,9 @@ public class Main {
 
         MoneyTest mt = new MoneyTest();
         mt.testMultiplication();
-        mt.testFrancMultiplication();
         mt.testEquality();
-
+        mt.testCurrency();
+        
     }
 
 }
